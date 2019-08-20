@@ -71,7 +71,7 @@ repos:
 
   - src: TuningManager
     url: https://github.com/EuPathDB/TuningManager.git
-    branch: master
+    branch: api-build-43
 
 groups:
   baseProjects:
