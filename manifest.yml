@@ -4,74 +4,74 @@ repos:
 
   - src: ApiCommonModel
     url: https://github.com/EuPathDB/ApiCommonModel.git
-    branch: api-build-43
+    branch: master
 
 #  - src: ApiCommonPresenters
 #    url: https://github.com/EuPathDB/ApiCommonPresenters.git
 
   - src: ApiCommonWebService
     url: https://github.com/EuPathDB/ApiCommonWebService.git
-    branch: api-build-43
+    branch: master
 
   - src: ApiCommonWebsite
     url: https://github.com/EuPathDB/ApiCommonWebsite.git
-    branch: api-build-43
+    branch: master
 
   - src: CBIL
     url: https://github.com/EuPathDB/CBIL.git
-    branch: api-build-43
+    branch: master
 
   - src: EbrcModelCommon
     url: https://github.com/EuPathDB/EbrcModelCommon.git
-    branch: api-build-43
+    branch: master
 
   - src: EbrcWebsiteCommon
     url: https://github.com/EuPathDB/EbrcWebsiteCommon.git
-    branch: api-build-43
+    branch: master
 
   - src: EbrcWebSvcCommon
     url: https://github.com/EuPathDB/EbrcWebSvcCommon.git
-    branch: api-build-43
+    branch: master
 
   - src: FgpUtil
     url: https://github.com/EuPathDB/FgpUtil.git
-    branch: api-build-43
+    branch: master
 
   - src: GBrowse
     url: https://github.com/EuPathDB/GBrowse.git
-    branch: api-build-43
+    branch: master
 
   - src: install
     url: https://github.com/EuPathDB/install.git
-    branch: api-build-43
+    branch: master
 
   - src: JBrowse
     url: https://github.com/EuPathDB/JBrowse.git
-    branch: api-build-43
+    branch: master
 
   - src: ReFlow
     url: https://github.com/EuPathDB/ReFlow.git
-    branch: api-build-43
+    branch: master
 
   - src: WDK
     url: https://github.com/EuPathDB/WDK.git
-    branch: api-build-43
+    branch: master
 
   - src: WDKClient
     url: https://github.com/EuPathDB/WDKClient.git
-    branch: api-build-43
+    branch: master
 
   - src: WDKWebsite
     url: https://github.com/EuPathDB/WDKWebsite.git
-    branch: api-build-43
+    branch: master
 
   - src: WSF
     url: https://github.com/EuPathDB/WSF.git
-    branch: api-build-43
+    branch: master
 
   - src: TuningManager
     url: https://github.com/EuPathDB/TuningManager.git
-    branch: api-build-43
+    branch: master
 
 groups:
   baseProjects:
