@@ -1,0 +1,81 @@
+repos:
+#  - src: ApiCommonDatasets
+#    url: https://github.com/EuPathDB/ApiCommonDatasets.git
+
+  - src: ApiCommonModel
+    url: https://github.com/EuPathDB/ApiCommonModel.git
+    branch: api-build-43
+
+#  - src: ApiCommonPresenters
+#    url: https://github.com/EuPathDB/ApiCommonPresenters.git
+
+  - src: ApiCommonWebService
+    url: https://github.com/EuPathDB/ApiCommonWebService.git
+    branch: api-build-43
+
+  - src: ApiCommonWebsite
+    url: https://github.com/EuPathDB/ApiCommonWebsite.git
+    branch: api-build-43
+
+  - src: CBIL
+    url: https://github.com/EuPathDB/CBIL.git
+    branch: api-build-43
+
+  - src: EbrcModelCommon
+    url: https://github.com/EuPathDB/EbrcModelCommon.git
+    branch: api-build-43
+
+  - src: EbrcWebsiteCommon
+    url: https://github.com/EuPathDB/EbrcWebsiteCommon.git
+    branch: api-build-43
+
+  - src: EbrcWebSvcCommon
+    url: https://github.com/EuPathDB/EbrcWebSvcCommon.git
+    branch: api-build-43
+
+  - src: FgpUtil
+    url: https://github.com/EuPathDB/FgpUtil.git
+    branch: api-build-43
+
+  - src: GBrowse
+    url: https://github.com/EuPathDB/GBrowse.git
+    branch: api-build-43
+
+  - src: install
+    url: https://github.com/EuPathDB/install.git
+    branch: api-build-43
+
+  - src: JBrowse
+    url: https://github.com/EuPathDB/JBrowse.git
+    branch: api-build-43
+
+  - src: ReFlow
+    url: https://github.com/EuPathDB/ReFlow.git
+    branch: api-build-43
+
+  - src: WDK
+    url: https://github.com/EuPathDB/WDK.git
+    branch: api-build-43
+
+  - src: WDKClient
+    url: https://github.com/EuPathDB/WDKClient.git
+    branch: api-build-43
+
+  - src: WDKWebsite
+    url: https://github.com/EuPathDB/WDKWebsite.git
+    branch: api-build-43
+
+  - src: WSF
+    url: https://github.com/EuPathDB/WSF.git
+    branch: api-build-43
+
+  - src: TuningManager
+    url: https://github.com/EuPathDB/TuningManager.git
+    branch: api-build-43
+
+groups:
+  baseProjects:
+    repos: [install, CBIL, FgpUtil, WSF, WDK, TuningManager]
+
+  apiSiteProjects:
+    repos: [ReFlow, ApiCommonModel, GBrowse, JBrowse, ApiCommonWebsite, ApiCommonWebService]
